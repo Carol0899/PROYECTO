@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Inicio progrmación</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<style type="text/css">
+		.section1{
+			height: 55em;
+			width: 100%;
+			right: 0%;
+			margin-left: 0;
+			background-image:  
+                  url("../images/htmlycss.png");
+			background-repeat: none;
+			background-size: cover;
+		}
+		h1{
+			width: 50%;
+			font-size: 80px;
+			color: white;
+			text-shadow: 5px 5px 10px rgb(231, 164, 203);
+
+		}
+		.css{
+			color: white;
+			margin-left: 60em;
+			margin-right: 15em;
+			margin-top: 5em;;
+			font-size: 20px;
+			margin-bottom: 9em;
+			width: 100%;	
+			line-height: 2em;;
+		}
+		.h2{
+			font-size: 10em;
+			text-shadow: 5px 5px 10px rgb(231, 164, 203);
+		}
+		.sintaxis{
+			text-align: center;
+		}
+		.sectionselectores{
+			background-image:  
+                  url("../images/fondoselectores.jpg");
+			background-repeat: none;
+			background-size: cover;
+			padding: 5em;
+
+		}
+		.definicionselectores{
+			color: white;
+			margin-left: 5em;
+			margin-right: 5em;
+			font-size: 20px;
+		}
+		.selectores{
+			display: flex;
+			justify-content: space-between;
+			padding: 5em;
+		}
+		.articulosselectores{
+			width: 30%;
+			background-color: pink;
+			border-radius: 2em;
+			padding: 2em;
+			margin-left: 2em;
+		}
+		.articulosselectores:hover{
+			background-color: pink;
+   			border-radius: 2em;
+			box-shadow: 0 0 50px rgba(255, 255, 255, 0.8);
+			cursor: pointer;
+		}
+		h3{
+			font-size: 25px;
+			text-align: center;
+		}
+		.h22{
+			font-size: 80px;
+			color: white;
+			text-align: center;
+			text-shadow: 5px 5px 10px rgb(231, 164, 203);
+			
+		}
+		p{
+			font-size:20px;
+		}
+		footer{
+			padding: 10em;
+			margin-top: 6em;
+			clear: both;
+			display: flex;
+			justify-content: space-evenly;
+			
+		}
+		.imgfooter{
+			width: 15em;
+
+		}
+		.medidasyenlaces{
+			display: flex;
+			justify-content: space-evenly;
+			padding: 5em;
+			
+
+		}
+		.medidasenlaces{
+			background-color: rgb(255, 255, 255);
+			border-radius: 2em;
+			box-shadow: 0 0 50px rgb(134, 165, 230);
+			padding: 5em;
+			margin-left: 2em;
+
+
+		}
+		.frase{
+			background-image:  
+                  url("../images/frase.jpg");
+			background-repeat: none;
+			background-size: cover;
+			
+		}
+		.p{
+			font-size: 2em;
+		}
+		h4{
+			font-size: 1.5em;
+			text-decoration: underline;
+		}
+		.aplicarcss{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 5em;
+		}
+		.articuloaplicarcss{
+			margin-left: 5em;
+			width: 30%;
+			margin-right: 5em;
+		  	background-color: rgb(255, 210, 240);                                           
+			border-radius: 3em;
+			padding: 5em;
+			color: rgb(0, 0, 0);
+			box-shadow: 0 0 50px rgb(97, 93, 96);
+		}
+		.articuloaplicarcss:hover{
+			width: 60%;
+			cursor: pointer;
+		}
+		h6{
+			font-size: 4em;
+			text-align: center;
+			text-shadow: 5px 5px 10px rgb(116, 135, 241);
+		}
+		h5{
+			font-size: 7em;
+			text-align: center;
+			text-shadow: 5px 5px 10px rgb(116, 135, 241);
+		}
+		.fotoformularios{
+			margin-left: 30em;
+			border-radius: 2em;
+			margin-top: 3em;
+		}
+		.fotoformularios:hover{
+			box-shadow: 0 0 50px rgb(255, 255, 255);
+			cursor: pointer;
+		}
+		.h3formularios{
+			color: white;
+			font-size: 3.5em;
+			
+		}
+		.sectionformularios{
+			background-image:  
+                  url("../images/fondoselectores.jpg");
+			background-repeat: none;
+			background-size: cover;
+			padding: 5em;
+		}
+		.elementosformularios{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 5em;
+		}
+		.articulosformularios{
+			width: 30%;
+			background-color: pink;
+			border-radius: 2em;
+			padding: 2em;
+			margin-left: 2em;
+		}
+		.articulosformularios:hover{
+			box-shadow: 0 0 50px rgb(255, 255, 255);
+			cursor: pointer;
+		}
+		.flexbox{
+			margin-left: 14em;
+			
+
+		}
+		.flexbox:hover{
+			box-shadow: 0 0 50px rgb(238, 103, 198);
+			cursor: pointer;
+
+		}
+		.tituloflexbox{
+			font-size: 15em;
+			text-decoration: none;
+			margin-left: 0.5em;
+			text-shadow: 5px 5px 10px rgb(241, 89, 208);
+		}
+		.section3{
+			background-image:  
+                  url("../images/fondoselectores.jpg");
+			background-repeat: none;
+			background-size: cover;
+			padding: 5em;
+			text-align: center;
+			margin-top: 5em;
+
+		}
+		.tituloformulario{
+			color: white;
+			font-size: 4em;
+		}
+		.opcion1{
+			margin-left: 1em;
+			border-radius: 2em;
+			padding: 1em;
+		}
+		
+		
+		
+		
+
+	</style>
+</head>
+<body>
+	<nav>
+		<ul class="nav">
+			<li><a href="../index.html">INICIO</a></li>
+			<li><a href="../html/html.html">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+		</ul>
+	</nav>
+	<br>
+<header class="section1 entrada">
+	<article class="css">
+		<h1>CSS</h1>
+		<p>Abreviado en sus siglas en inglés, Cascading Style Sheets, que significa hojas de estilo en cascada, el CSS es una función que se agrega a HTML que proporciona tanto a los desarrolladores de sitios Web, así como a los usuarios, más control sobre cómo se muestran las páginas.Los diseñadores y los usuarios pueden crear hojas de estilo que definen cómo aparecen los diferentes elementos, como los encabezados y los enlaces..</p>
+	</article>
+</header>
+<section class="sintaxis">
+	<article>
+	<h2 class="h2">SINTAXIS BÁSICA</h2>
+	</article>
+	<article>
+	<img src="../images/sintaxis_css.png" style="width: 70em;">
+	</article>
+</section>
+<section class="sectionselectores">
+	<h2 class="h22">TIPOS DE SELECTORES</h2>
+	<p class="definicionselectores">En CSS los selectores se utilizan para delimitar los elementos HTML de nuestra página web a los que queremos aplicar estilo. Hay una amplia variedad de selectores CSS, lo que permite una gran precisión a la hora de seleccionar elementos a los que aplicar estilo.</p>
+	<section class="selectores">
+	<article class="articulosselectores"> 
+		<h3>Selector simple</h3>
+		<p>El selector simple solamente introduciremos el nombre de la etiqueta. También recibe el nombre de selector de nombre de etiqueta o selector de elemento porque selecciona un elemento/etiqueta HTML del documento. </p>
+	</article>
+	<article class="articulosselectores">
+		<h3>Selector de id</h3>
+		<p>Un selector de ID comienza con un carácter # en lugar de un punto, pero se utiliza básicamente de la misma manera que un selector de clase. Sin embargo, un ID se puede utilizar una sola vez en cada documento</p>
+	</article>
+	<article class="articulosselectores">
+		<h3>Selector de clase</h3>
+		<p>El selector de clase comienza con un punto (.) y selecciona todo elemento del documento que esté afectado por esa clase.</p>
+	</article>
+	</section>
+</section>
+<section class="frase">
+	<p></p>
+</section>
+<section class="medidasyenlaces">
+	<article class="medidasenlaces">
+		<h4 >ENLACES CON CSS</h4>
+			<article class="p">a { Para toda la navegación.</article>
+			<article class="p">a:link{ Enlace normal (no visitado)</article>
+			<article class="p">a:visited{ Enlace visitado.</article>
+			<article class="p">a:hover{ Cuando pasas por encima con el mouse.</article>
+			<article class="p">a:active{ Cuando estas dentro el enlace.</article>
+	</article>
+	<article class="medidasenlaces">
+		<h4 >MEDIDAS CON CSS</h4>
+		<article class="p">Medidas absolutas : NO se adaptan a la pantalla porque siempre tiene los pixeles que marca.</article>
+		<article class="p">Medidas relativas: SI se adaptan a la pantalla con la que veamos la página.</article>
+	</article>	
+</section>
+<section class="frase">
+	<img src="../images/frase.jpg" alt="frase" style="width: 100%;">
+</section>
+
+<section>
+	<h5>APLICAR CSS A HTML</h5>
+		<div class="aplicarcss">
+			<article class="articuloaplicarcss">
+				<h6>En línea</h6>
+				<p>Usando el atributo style. Es el menos utilizado ya que es el más lento y tardamos mucho.<br> Esta forma de incluir CSS es para situaciones únicas o en las que tenemos que cambiar un elemento muy especifico.
+				</p>
+			</article>
+			<article class="articuloaplicarcss">
+				<h6>Interno</h6>
+				<p>Usando la etiqueta style, se emplea para definir un numero pequeño de estilos. El inconveniente es que si quieres cambiar algo tendrias que hacerlo en todas las páginas.</p>
+			</article>
+			<article class="articuloaplicarcss">
+				<h6>Externo</h6>
+				<p>Esto es un enlace a una hoja de estilo. Esta es la forma más utilizada, se puede incluir un mismo archivo de css en varios archivos de html. Se simplifica al máximo el mantenimiento de la pág.</p>
+			</article>
+		</div>
+</section>
+<section>
+	<h4 class="tituloflexbox">CSS FLEXBOX</h4>
+	<img class="flexbox" src="../images/flexbox.png" alt="">
+</section>
+<section class="sectionformularios">
+	<h2 class="h22">FORMULARIOS</h2>
+	<p class="definicionselectores">Los formularios son una herramienta que disponemos para interactuar con los usuarios, nos permiten recopilar información de la persona que visita la página, procesarla y responder a ella.</p>
+	<img class="fotoformularios" src="../images/formulario.PNG" alt="formulario">
+ 	<h3 class="h3formularios">Elementos comunes en formularios HTML:</h3>
+	<section class="elementosformularios">
+
+	<article class="articulosformularios">
+		<h3>FORM</h3>
+		<p>Define un formulario</p>
+	</article>
+	<article class="articulosformularios">
+		<h3>INPUT</h3>
+		<p>Para ingresar datos</p>
+	</article>
+	<article class="articulosformularios"> 
+		<h3>TEXTAREA</h3>
+		<p>Para áreas de texto.</p>
+	</article>
+	<article class="articulosformularios">
+		<h3>SELECT</h3>
+		<p>Para listas despegables</p>
+	</article>
+	<article class="articulosformularios">
+		<h3>BUTTON</h3>
+		<p>Para botones</p>
+	</article>
+	<article class="articulosformularios">
+		<h3>LABEL</h3>
+		<p>Etiqueta para describir campos de entrada</p>
+	</article>
+	
+	</section>
+	
+</section>
+
+
+<section class="section3">
+		<div class="tituloformulario">
+			<header >
+				<h2>Contacta con nosotros aquí.</h2>
+				<p>Si quieres más información envianos tus datos aquí.</p>
+			</header>
+		</div>
+		<div >
+			<form action="mailto:formacion1@laredo.es" method="post" enctype="text/plain">
+				<div>
+					<div class="opcion1" >
+						<input name="name" id="name" value="" placeholder="Name" type="text">
+					</div>
+					<div class="opcion1">
+						<input name="email" id="email" value="" placeholder="Email" type="email">
+					</div>
+					<div class="opcion1">
+						<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+					</div>
+					<div class="opcion1" >
+						<ul class="actions">
+							<li><input value="Send Message" class="special big" type="submit"></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+<footer>
+			
+	<div>
+		<img class="imgfooter" src="../images/emcan.jpeg" alt="emcan">
+		<img class="imgfooter" src="../images/plan-joven.png" alt="planjoven">
+		<img class="imgfooter" src="../images/gob-cantabria-jubileo.jpeg" alt="jubileo">
+		<img class="imgfooter" src="../images/ministerio-trabajo.jpeg" alt="ministerio">
+	</div>
+	<hr>
+	<p>Realizado por Carolina Pombo Odriozola. ETJ Laredo.</p>
+</footer>
+
+
+</body>

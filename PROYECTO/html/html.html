@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Inicio progrmación</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<style type="text/css">
+		.section1{
+			height: 55em;
+			width: 100%;
+			right: 0%;
+			margin-left: 0;
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0 ,0 , 0.8)),
+                  url("../images/fotofondo.jpg");
+		}
+		h1{
+			width: 50%;
+			font-size: 80px;
+			color: white;
+			text-shadow: 5px 5px 10px rgb(231, 164, 203);
+
+		}
+		.html{
+			color: white;
+			margin-left: 10em;
+			margin-right: 1em;
+			font-size: 20px;
+			margin-bottom: 9em;
+			width: 40%;
+		
+
+			
+		}
+		.img{
+			width: 90%;
+			margin-left: 5em;
+			border-radius: 1em;
+		}
+		.h21{
+			float: right;
+			font-size: 5em;
+			line-height: 1em;
+			margin-right: 2em;
+			text-shadow: 5px 5px 10px rgb(231, 164, 203);
+
+		}
+		.section2{
+			padding-bottom: 45em;
+		}
+		.imgsemanticos{
+
+			float: left;
+			margin-right: 5em;
+			margin-left: 5em;
+			margin-top: 3em;
+			width: 30%;
+		               
+		}
+
+		.semanticos{
+			float: right;
+			width: 40%;
+			margin-left: 1em;
+			margin-top: 5em;
+			font-size: 20px;
+			margin-right: 5em;
+			background-color: #FDF6FA;
+			padding:1.2em;
+			border-radius: 2em;
+			
+		}
+		.section3{
+			height: 85em;
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0 ,0 , 0.8)),
+                  url("../images/fotofondo.jpg");
+			color:white;
+			margin-top: 5em;
+			padding: 5em;
+		}
+		.h22{
+			color: white;
+			text-align: center;
+			font-size: 10em;
+			line-height: 1em;
+			margin-bottom: 1em;
+			color: #f7c3e1;
+			text-shadow: 5px 5px 10px rgb(231, 164, 203);
+		}
+		.tabla{
+			width: 70%;
+			margin-left: 7em;
+			font-size: 2em;
+
+		}
+	
+		.sectiontres{
+			display: flex;
+
+		}
+		.articulouno{
+			width: 30%;
+			text-align: center;
+			margin-left: 5em;
+			margin-right: 3em;
+			line-height: 1.6em;
+			font-size: 2em;
+			float: left;
+			background-color: #FDF6FA;
+			padding:1.2em;
+			border-radius: 2em;
+			
+
+		}
+		.oculto{
+			display:none;
+
+		}
+		.articulouno:hover .visto{
+			display:none;
+		}
+		.articulouno:hover .oculto{
+			display:block;
+			padding: 5em;
+			cursor: pointer;
+		}
+		.articulouno:hover{
+			background-color:  #ff199c69;
+		}
+		
+		.articulodos{
+
+			width: 30%;
+			text-align: center;
+			margin-left: 2em;
+			margin-right: 5em;
+			line-height: 1.6em;
+			font-size: 2em;
+			float: right;
+			background-color: #FDF6FA;
+			padding:1.2em;
+			border-radius: 2em;
+
+		}
+		.oculto2{
+			display:none;
+
+		}
+		.articulodos:hover .visto2{
+			display:none;
+		}
+		.articulodos:hover .oculto2{
+			display:block;
+			padding: 5em;
+			cursor: pointer;
+		}
+		.articulodos:hover{
+			background-color:  #ff199c69;
+		}
+		
+		.h23{
+			font-size: 100px;
+			color:#ff0092;
+			margin-left: 5.5em;
+
+		}
+		footer{
+			padding: 10em;
+			margin-top: 6em;
+			clear: both;
+			display: flex;
+			justify-content: space-evenly;
+			
+		}
+		.imgfooter{
+			width: 15em;
+
+		}
+		.img{
+			width: 15em;
+
+		}
+		
+
+	</style>
+</head>
+<body>
+	<nav >
+		<ul class="nav">
+			<li><a href="../index.html">INICIO</a></li>
+			<li><a href="#">HTML</a></li>
+			<li><a href="../css/css.html">CSS</a></li>
+		</ul>
+	</nav>
+	<header class="section1 entrada">
+			<article class="html">
+				<h1>HTML</h1>
+				<p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web.<br> Define el significado y la estructura del contenido web.<br> Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
+			</article>
+			<article>
+				<img class="img" src="../images/htmlejemplo.png">
+			</article>
+	</header>
+	<section class="section2">
+		<h2 class="h21">Estructura de HTML con elementos semánticos.</h2>
+		<p class="semanticos">Los elementos semánticos HTML son aquellos que describen claramente su significado de una manera legible por humanos y máquinas.<br>Elementos tales como header, footer y article son considerados semánticos porque describen con precisión el propósito del elemento y el tipo de contenido que hay dentro de ellos.<br><br>En cambio, etiquetas como div y span son ejemplos típicos de elementos HTML no semánticos. Aunque albergan contenido, no indican qué tipo de contenido contienen ni qué función desempeña esa pieza en la página.</p>
+		<br>
+		<img class="imgsemanticos" src="../images/semanticos.png">
+	</section>
+
+	<section style="clear: both;" class="section3">
+		<h2 class="h22" > ETIQUETAS DE HTML </h2>
+			<table class="tabla">
+				
+				<tr>
+					<td>&lt;p&gt;</td>
+					<td>Párrafo</td>
+				</tr>
+				<tr>
+					<td>&lt;h1&gt; ..... &lt;h6&gt;</td>
+					<td>Encabezados</td>
+				</tr>
+				<tr>
+					<td>&lt;strong&gt;</td>
+					<td>Negrita</td>
+				</tr>
+				<tr>
+					<td>&lt;em&gt;</td>
+					<td>Cursiva</td>
+				</tr>
+				<tr>
+					<td>&lt;sub&gt;</td>
+					<td>Subíndices</td>
+				</tr>
+				<tr>
+					<td>&lt;sup&gt;</td>
+					<td>Superíndicies</td>
+				</tr>
+				<tr>
+					<td>&lt;ul&gt;....&lt;li&gt;</td>
+					<td>Listas desordenadas</td>
+				</tr>
+				<tr>
+					<td>&lt;ol&gt;....&lt;li&gt;</td>
+					<td>Listas ordenadas</td>
+				</tr>
+				<tr>
+					<td>&lt;del&gt;</td>
+					<td>Texto tachado</td>
+				</tr>
+				<tr>
+					<td>&lt;dl&gt;</td>
+					<td>Lista de definición</td>
+				</tr>
+				<tr>
+					<td>&lt;dt&gt;</td>
+					<td>Palabra que vas a definir</td>
+				</tr>
+				<tr>
+					<td>&lt;dd&gt;</td>
+					<td>Definición de la palabra</td>
+				</tr>
+				<tr>
+					<td>&lt;div style:"text-align:center"&gt;</td>
+					<td>Para centrar una imagen,texto...</td>
+				</tr>
+				<tr>
+					<td> &lt;a href="#" target="_blank"&gt;</td>
+					<td>Enlaces remotos o externos</td>
+				</tr>
+				<tr>
+					<td> &lt;a href="index.html"&gt;</td>
+					<td>Enlaces locales o internos</td>
+				</tr>
+				<tr>
+					<td>&lt; id="superior"&gt;( atibuto )&lt; a href="#superior"&gt;</td>
+					<td>Marcadores o anclas</td>
+				</tr>
+				<tr>
+					<td>&lt;table&gt;</td>
+					<td>Se abre una tabla</td>
+				</tr>
+				<tr>
+					<td>&lt;tr&gt;</td>
+					<td>Fila de la tabla</td>
+				</tr>
+				<tr>
+					<td>&lt;th&gt;</td>
+					<td>Encabezado de la tabla</td>
+				</tr>
+				<tr>
+					<td>&lt;td&gt;</td>
+					<td>Datos de la tabla</td>
+				</tr>
+				<tr>
+					<td>&lt;caption&gt;</td>
+					<td>Título de la tabla</td>
+				</tr>
+			</table>
+	</section>
+
+	<section>
+		<h2 class="h23">Tipos de elementos</h2>
+		<article class="articulouno">
+			<div>
+			<div class="visto" >
+				<h2>Elementos de bloque</h2>
+				<p>Los elementos de bloque en HTML son aquellos que, por defecto, comienzan en una nueva línea y ocupan todo el ancho disponible del contenedor que los contiene. Esto significa que los elementos de bloque crean un "bloque" de contenido en la página. </p>
+				<p>Como por ejemplo: div, p, h1....h6, ul, ol, li, table, header, footer, nav...</p>
+			</div>
+			<div  class="oculto">
+				<h2>Ejemplo</h2>
+				<p><br><br>
+					&lt;p&gt;Este párrafo es un elemento en bloque.&lt;p/&gt;
+				</p>
+			</div>
+			</div>
+		</article>
+		<article class="articulodos">
+			<div>
+				<div class="visto2">
+					<h2>Elementos de línea</h2>
+					<p>Los elementos en línea en HTML son aquellos que, por defecto, no comienzan en una nueva línea y ocupan el espacio necesario dentro del flujo de texto de un documento HTML. Esto significa que estos elementos se pueden colocar uno al lado del otro en la misma línea, siempre y cuando haya suficiente espacio horizontal disponible. </p>
+					<p><p>Como por ejemplo: span, a, strong, img, br, label...</p>
+				</div>
+				<div class="oculto2">
+					<h2>Ejemplo</h2>
+					<br><br>
+					<p>&lt;img&gt;Esto es un elemento en línea.</p>
+				</div>
+			</div>
+		</article>
+	</section>
+	<footer>
+		
+		<div>
+			<img class="img" src="../images/emcan.jpeg" alt="emcan">
+			<img class="img" src="../images/plan-joven.png" alt="planjoven">
+			<img class="img" src="../images/gob-cantabria-jubileo.jpeg" alt="jubileo">
+			<img class="img" src="../images/ministerio-trabajo.jpeg" alt="ministerio">
+		</div>
+		
+	</footer>
+
+</body>
+</html>

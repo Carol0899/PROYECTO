@@ -1,0 +1,50 @@
+body{
+	font-family: Reddit Mono;
+	line-height: 2em;
+
+}
+ul.nav{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	padding: 0px;
+	margin-top: 0;
+	position: fixed;
+	top: 0px;
+	right: 0%;
+	width: 100%;
+	font-size: 35px;
+	background: linear-gradient(90deg, #000000, #000000);
+	height: 3em;
+}
+ul.nav li{
+	display: flex;
+	padding: 0.0rem;
+}
+ul.nav li a{
+	font-variant: small-caps;
+	text-decoration: none;
+	padding: 1em;
+	border-radius: 1em;
+	font-family: Alerón;
+	color: white;
+	margin-right: 3em;
+}
+ul.nav li a:hover{
+	color: #a7a7a7;
+}
+ul.nav li a:active{
+	color: #a7a7a7;
+}
+.entrada{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.entrada2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
